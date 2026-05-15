@@ -1,0 +1,90 @@
+/* configuración general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/fondo.png');
+    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+    }
+    
+/*tipofgrafia de google fonts para titulos*/
+h1,h2,h3, blockquote {
+    font-family:'Barlow', sans-serif;
+    }
+
+/* contenedor con ancho máximo en píxeles */
+.contenedor-principal{
+    max-width: 62.5rem; /* 1000px */
+    margin:auto;
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+/*encabezado*/
+header {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 0.125rem black /* 2px */
+}
+
+header h1 {
+    font-size: 400%;
+}
+
+/* menú de nav horizontal */
+nav {
+    margin: 1rem 0;
+}
+
+nav ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    background-color: black;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a.activo {
+    background-color:skyblue;
+}
+
+/*contenido principal*/
+main {
+    padding: 2rem 0;
+}
+
+section, article {
+    margin-bottom: 3rem;
+}
+
+p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    padding: 2rem;
+    border-left: 0.3125rem solid skyblue; /* 5px */
+    background-color:whitesmoke;
+}
+
+/*pie de página*/
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 0.0625rem solid whitesmoke; /* 1px */
+    font-size: 0.9rem;
+}
