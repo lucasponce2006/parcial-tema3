@@ -28,7 +28,7 @@ h1,h2,h3, blockquote {
 header {
     text-align: center;
     padding: 2rem 0;
-    border-bottom: 0.125rem black /* 2px */
+    border-bottom: 0.125rem solid black /* 2px */
 }
 
 header h1 {
